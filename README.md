@@ -11,3 +11,9 @@ The truck starts at a random point in the map. If the truck stops within 10 mete
 It uses kinematics equation to find the possible neighbor and add them to the open list, if they are not already in it or in the closed list with their cost using the cost function. The node with lowest cost is selected and added to the closed list. It continues till the goal node is reached.
 ## Sample based Planner: PRM
 Probabilistic road map takes n set of random points in the map and discard the ones which are no obstacles. We then connect the k nearest neighbors whose paths are collision free. Using this graph, we apply A* algorithm to get a global planner to reach the goal. Now using the points of the global planner, we find the path to reach from one point to other which is called the local planner. For this simulation I have used the above search-based planner as the local planner. 
+
+
+# Ackerman Steering Kinematics
+
+<img width="457" alt="ackerman" src="https://user-images.githubusercontent.com/48152038/154722402-ad50a223-5d28-482d-a5d8-7fefe8068779.png">
+
