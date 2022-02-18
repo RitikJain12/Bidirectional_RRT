@@ -17,3 +17,4 @@ Probabilistic road map takes n set of random points in the map and discard the o
 
 <img width="457" alt="ackerman" src="https://user-images.githubusercontent.com/48152038/154722402-ad50a223-5d28-482d-a5d8-7fefe8068779.png">
 
+<img width="322" alt="ackerman_explanation" src="https://user-images.githubusercontent.com/48152038/154723161-b47da45f-4735-4850-a61e-c8e4c3f89011.png">
